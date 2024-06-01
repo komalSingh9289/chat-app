@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: #8aaae530 !important  ;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    
+}
+p{
+    margin-bottom: 0rem !important;
+}
+.btn{
+    background-color: #8AAAE5!important  ;
+    font-weight: 700;
+    border: none;
+}
+#msgcontent{
+    overflow-y: auto;
+    width: 90%;
+    height: 2rem;
+    outline: none;
+    resize: none;
+    border: 1px solid none;
+    border-radius: 15px;
+}
+
+
+#signup-area{
+    background-color: #ffffff;
+    border: 1px solid none;
+    border-radius: 1.5rem;
+    
+}
+#side-panel {
+    background-color: #ffffff;
+    border-right: 1px solid #dee2e6;
+    
+}
+#userlist {
+    max-height: 500px; /* Set maximum height for scrolling */
+    overflow-y: auto;
+    overflow-x: hidden; 
+}
+#message-area {
+    height: 350px;
+    overflow-y: auto;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.user-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.active-status, #selecteduserstatus {
+    color: green;
+    font-weight: bold;
+}
+.user-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card-header{
+    background-color:#007bff42  !important;
+}
+
+.chat-message {
+    width: 25rem; 
+    padding: 10px;
+    clear: both;
+
+
+}
+
+.sender-message {
+    background-color: #f5f5f5;
+    border-radius: 5px 5px 5px 0;
+}
+
+.recipient-message {
+    background-color: #e9ecef;
+    border-radius: 5px 5px 0 5px;
+}
+.sender-box{
+    float: right;
+    
+    
+}
+.recipient-box{
+    float: left;
+}
+.user{
+  position: absolute;
+}
+.typing-status{
+    position: relative;
+    left: 80%;
+  }
+
+
+
+
+
